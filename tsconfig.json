@@ -27,7 +27,9 @@
     "paths": {
       "$lib": ["src/lib"],
       "$lib/*": ["src/lib/*"]
-    }
+    },
+    "declaration": true, // Ensure declaration files are generated
+    "declarationDir": "dist" // Output declarations to dist directory
   },
   "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
 }

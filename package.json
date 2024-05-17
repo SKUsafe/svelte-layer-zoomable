@@ -5,8 +5,8 @@
   "homepage": "https://mvolfik.github.io/svelte-layer-zoomable/",
   "repository": "github:mvolfik/svelte-layer-zoomable",
   "scripts": {
+    "build": "svelte-kit package",
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
     "prepack": "svelte-kit package && del dist/package.json dist/.*ignore dist/LICENSE dist/README.md",
     "preview": "svelte-kit preview",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore . && svelte-check --tsconfig ./tsconfig.json",
@@ -37,9 +37,7 @@
   "types": "./dist/Zoomable.svelte.d.ts",
   "exports": {
     ".": {
-      "svelte": "./dist/Zoomable.svelte",
-      "import": "./dist/Zoomable.svelte",
-      "require": "./dist/Zoomable.svelte"
+      "svelte": "./dist/Zoomable.svelte"
     }
   }
 }

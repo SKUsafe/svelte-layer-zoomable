@@ -12,7 +12,7 @@ const config = {
     },
     package: {
       dir: 'dist',
-      exports: (file) => file === 'index.js', // Ensure this matches your entry file
+      exports: (file) => file === 'index.ts', // Ensure this matches your entry file
       files: (file) => !file.startsWith('dev') // Include necessary files
     },
   },
