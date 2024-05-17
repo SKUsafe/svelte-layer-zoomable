@@ -34,5 +34,12 @@
   },
   "type": "module",
   "svelte": "./dist/Zoomable.svelte",
-  "types": "./dist/Zoomable.svelte.d.ts"
+  "types": "./dist/Zoomable.svelte.d.ts",
+  "exports": {
+    ".": {
+      "svelte": "./dist/Zoomable.svelte",
+      "import": "./dist/Zoomable.svelte",
+      "require": "./dist/Zoomable.svelte"
+    }
+  }
 }
