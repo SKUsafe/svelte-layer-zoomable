@@ -21,7 +21,6 @@
     },
     "declaration": true,
     "declarationDir": "dist",
-    "verbatimModuleSyntax": true,
     "ignoreDeprecations": "5.0"
   },
   "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
